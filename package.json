@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "cd sillyworld-client && npm install && npm install --save-dev typescript @types/react @types/node",
-    "build": "cd sillyworld-client && npm run build",
+    "postinstall": "cd sillyworld-client && npm install",
+    "build": "cd sillyworld-client && npm install && npm run build",
     "start": "cd sillyworld-client && npm start"
   },
   "engines": {
-    "node": "18.x"
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
   },
   "cacheDirectories": [
     "sillyworld-client/node_modules"
