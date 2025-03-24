@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "cd sillyworld-client && npm install",
+    "postinstall": "cd sillyworld-client && npm install && npm install --save-dev typescript @types/react @types/node",
     "build": "cd sillyworld-client && npm run build",
     "start": "cd sillyworld-client && npm start"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
   "cacheDirectories": [
     "sillyworld-client/node_modules"
