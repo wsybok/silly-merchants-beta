@@ -1,0 +1,16 @@
+{
+  "name": "silly-merchants",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd sillyworld-client && npm install",
+    "build": "cd sillyworld-client && npm run build",
+    "start": "cd sillyworld-client && npm start"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "cacheDirectories": [
+    "sillyworld-client/node_modules"
+  ]
+} 
